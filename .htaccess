@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^monitorrx\.marascientific\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.monitorrx\.marascientific\.org$
+RewriteRule ^/?$ "http\:\/\/monitorrx\.marascientific\.org\/public" [R=301,L]
+
