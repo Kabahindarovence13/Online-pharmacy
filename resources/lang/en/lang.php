@@ -564,6 +564,8 @@ return [
     'product_capacity' => 'Capacity',
     'product_capacity_help' => 'Insert Capacity of this product default unit is gramme (g)',
     'product_capacity_placeholder' => 'Insert Capacity',
+    'reorderq' => 'Reorder lvl',
+    'reorderq_help'=> 'Insert Capacity at which stock should be replenished',
     'gallery' => 'Gallery',
     'gallery_create' => 'Create Gallery',
     'gallery_desc' => 'Galleries Management',

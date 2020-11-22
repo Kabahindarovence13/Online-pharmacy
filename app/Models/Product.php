@@ -31,6 +31,7 @@ use Spatie\MediaLibrary\Models\Media;
  * @property double discount_price
  * @property string description
  * @property double capacity
+ * @property double reorderq
  * @property boolean featured
  * @property double package_items_count
  * @property string unit
@@ -63,6 +64,7 @@ class Product extends Model implements HasMedia
         'discount_price',
         'description',
         'capacity',
+        'reorderq',
         'package_items_count',
         'unit',
         'featured',
@@ -82,6 +84,7 @@ class Product extends Model implements HasMedia
         'discount_price' => 'double',
         'description' => 'string',
         'capacity' => 'double',
+        'reorderq' => 'double',
         'package_items_count' => 'integer',
         'unit' => 'string',
         'featured' => 'boolean',

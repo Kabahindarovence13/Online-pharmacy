@@ -117,6 +117,17 @@
         </div>
     </div>
 
+    <!--Reorder Level-->
+    <div class="form-group row">
+        {!! Form::label('Reorder',trans("lang.reorderq"),['class'=>'col-3 control-label text-right']) !!}
+        <div class="col-9">
+            {!! Form::number('reorderq',null,['class'=>'form-control']) !!}
+            <div class="form-text text-muted">
+                {{ trans("lang.reorderq_help") }}
+            </div>
+        </div>
+    </div>
+
     <!-- unit Field -->
     <div class="form-group row ">
         {!! Form::label('unit', trans("lang.product_unit"), ['class' => 'col-3 control-label text-right']) !!}
